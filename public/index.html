@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Weather Dashboard</title>
+    <link rel="icon" href="favicon.ico" type="image/x-icon" />
+    <script>
+      var googleMapsApiLoaded = false;
+      function googleMapsApiCallback() {
+        googleMapsApiLoaded = true;
+      }
+    </script>
+    <!-- Add Google Maps API -->
+    <script
+      src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCm1QRFiSXb16Q_whjAjw4o254LFDdUn84&callback=googleMapsApiCallback"
+      async
+      defer
+    ></script>
+  </head>
+  <body>
+    <div id="app"></div>
+    <!-- Built files will be auto-injected -->
+  </body>
+</html>
